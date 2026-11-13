@@ -98,3 +98,7 @@ Run these manually after setup and record the actual result on your machine.
 
 ## AI coding assistant disclosure
 This project was prepared with assistance from ChatGPT. Review the code before submission and be ready to explain it. One example of a review/change to document after your own review: verify that task update and delete queries include both the task ID and the logged-in user's ID, so changing a URL/request ID cannot modify another user's task. Only claim this review change after you have personally checked it.
+
+## Dashboard Screenshot
+
+![Task Tracker Dashboard](screenshots/dashboard.png)
