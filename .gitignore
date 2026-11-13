@@ -1,0 +1,44 @@
+
+# Secret and environment files
+.env
+.env.*
+!.env.example
+secrets.*
+credentials.*
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local database files and backups
+*.sql
+!database.sql
+*.sqlite
+*.sqlite3
+*.db
+backups/
+database-backups/
+
+# Logs and temporary files
+*.log
+tmp/
+temp/
+cache/
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor settings
+.vscode/
+.idea/
+
+# Dependencies (if present)
+vendor/
+node_modules/
+# Protect local database credentials
+/config/database.php
+
+# Allow example configuration
+!/config/database.example.php
